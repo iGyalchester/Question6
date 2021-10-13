@@ -1,3 +1,5 @@
+package Assignment;
+
 public class ShopLifters extends Person implements Discountable{
 
 	public ShopLifters(String name) {
@@ -5,7 +7,7 @@ public class ShopLifters extends Person implements Discountable{
 	}
 
 	@Override
-	public double calculateDiscount() {
+	public double calculateDiscount(Clothing clothing) {
 		return 0;
 	}
 }
