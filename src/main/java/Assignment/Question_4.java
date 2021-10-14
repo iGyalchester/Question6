@@ -21,6 +21,10 @@ public class Question_4 {
 		Person_Question4 jade = new Person_Question4("Jade");
 		Person_Question4 ishmell = new Person_Question4("Ishmell");
 		Person_Question4 cece = new Person_Question4("Cece");
+		Person_Question4 lia = new Person_Question4("Lia");
+		Person_Question4 daya = new Person_Question4("Daya");
+
+
 
 		names.add(diego);
 		names.add(jeremy);
@@ -33,6 +37,8 @@ public class Question_4 {
 		names.add(jade);
 		names.add(ishmell);
 		names.add(cece);
+		names.add(lia);
+		names.add(daya);
 
 		for (Person_Question4 i : names){
 			System.out.println(i);

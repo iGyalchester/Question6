@@ -56,7 +56,7 @@ public class MainApp {
 		Shop.printCustomerName(hourlyEmployee);
 		Shop.printCustomerName(student);
 
-		System.out.println("===============Invoke the printCustomerName===============");
+		System.out.println("==============================");
 		System.out.println(tShirt);
 		System.out.println(jeans);
 		System.out.println(buttonUp);

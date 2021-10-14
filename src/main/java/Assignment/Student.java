@@ -2,7 +2,7 @@ package Assignment;
 
 public class Student extends Customer implements Discountable{
 	private long studentID;
-	private static final double DISCOUNT = 0.5;
+	private static final double DISCOUNT = .5;
 
 	public Student(String name, long studentID, Size size) {
 		super(name, size);
